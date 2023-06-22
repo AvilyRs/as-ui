@@ -1,0 +1,7 @@
+{
+  "name": "as-ui",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
