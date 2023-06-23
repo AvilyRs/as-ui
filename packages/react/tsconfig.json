@@ -1,4 +1,4 @@
 {
-  "extends": "@as-ui/ts-config/base.json",
+  "extends": "@as-ui/ts-config/react.json",
   "include": ["src"] // Onde estão os arquivos que serão verificados pelo typescript
 }
