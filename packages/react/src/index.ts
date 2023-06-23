@@ -1,3 +1,3 @@
-import { colors } from '@as-ui/tokens'
+import { colors } from '@as-ui/tokens';
 
 console.log(colors);
