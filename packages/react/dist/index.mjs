@@ -18,6 +18,9 @@ var __spreadValues = (a, b) => {
 };
 var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 
+// src/styles/index.ts
+import { createStitches, defaultThemeMap } from "@stitches/react";
+
 // ../tokens/dist/index.mjs
 var colors = {
   white: "#FFF",
@@ -92,7 +95,6 @@ var space = {
 };
 
 // src/styles/index.ts
-import { createStitches, defaultThemeMap } from "@stitches/react";
 var {
   styled,
   css,
@@ -119,17 +121,26 @@ var {
 });
 
 // src/index.tsx
-import { jsx, jsxs } from "react/jsx-runtime";
 var Button = styled("button", {
   color: "$gray100",
-  backgroundColor: "$ignite500"
+  fontWeight: "bold",
+  border: "none",
+  borderRadius: "$sm",
+  padding: "$2 $4",
+  backgroundColor: "$ignite500",
+  variants: {
+    size: {
+      small: {
+        padding: "$2 $4",
+        fontSize: "$sm"
+      },
+      big: {
+        padding: "$3 $6",
+        fontSize: "$xl"
+      }
+    }
+  }
 });
-function App() {
-  return /* @__PURE__ */ jsxs("main", { children: [
-    /* @__PURE__ */ jsx("h1", { style: { color: colors.ignite500 }, children: "Hey there" }),
-    /* @__PURE__ */ jsx(Button, { children: "Meu Bot\xE3o" })
-  ] });
-}
 export {
-  App
+  Button
 };

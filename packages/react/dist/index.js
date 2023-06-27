@@ -37,9 +37,12 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  App: () => App
+  Button: () => Button
 });
 module.exports = __toCommonJS(src_exports);
+
+// src/styles/index.ts
+var import_react = require("@stitches/react");
 
 // ../tokens/dist/index.mjs
 var colors = {
@@ -115,7 +118,6 @@ var space = {
 };
 
 // src/styles/index.ts
-var import_react = require("@stitches/react");
 var {
   styled,
   css,
@@ -142,18 +144,27 @@ var {
 });
 
 // src/index.tsx
-var import_jsx_runtime = require("react/jsx-runtime");
 var Button = styled("button", {
   color: "$gray100",
-  backgroundColor: "$ignite500"
+  fontWeight: "bold",
+  border: "none",
+  borderRadius: "$sm",
+  padding: "$2 $4",
+  backgroundColor: "$ignite500",
+  variants: {
+    size: {
+      small: {
+        padding: "$2 $4",
+        fontSize: "$sm"
+      },
+      big: {
+        padding: "$3 $6",
+        fontSize: "$xl"
+      }
+    }
+  }
 });
-function App() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { style: { color: colors.ignite500 }, children: "Hey there" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, { children: "Meu Bot\xE3o" })
-  ] });
-}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  App
+  Button
 });
