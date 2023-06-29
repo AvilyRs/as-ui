@@ -1,10 +1,17 @@
 {
   "name": "as-ui",
   "private": true,
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
     "polished": "^4.2.2"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.6"
   }
 }
