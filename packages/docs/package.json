@@ -12,9 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@as-ui/react": "*",
     "@as-ui/eslint-config": "*",
-    "@as-ui/tokens": "*"
+    "@as-ui/react": "*",
+    "@as-ui/tokens": "*",
+    "phosphor-react": "^1.4.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.23",

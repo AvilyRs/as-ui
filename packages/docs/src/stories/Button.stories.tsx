@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button, ButtonProps } from '@as-ui/react';
+import { ArrowRight } from 'phosphor-react';
 
 export default {
   title: 'Form/Button',
@@ -35,5 +36,16 @@ export const Small: StoryObj<ButtonProps> = {
 export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true
+  }
+};
+
+export const WithIcon: StoryObj<ButtonProps> = {
+  args: {
+    children: (
+      <>
+        <span>Next Step</span>
+        <ArrowRight weight='bold' />
+      </>
+    )
   }
 };
