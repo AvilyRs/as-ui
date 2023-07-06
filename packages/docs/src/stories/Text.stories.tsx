@@ -4,6 +4,7 @@ import { Text, TextProps } from '@as-ui/react';
 export default {
   title: 'Surfaces/Text',
   component: Text,
+  tags: ['autodocs'],
 } as Meta<TextProps>;
 
 export const Primary: StoryObj<TextProps> = {

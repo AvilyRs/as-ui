@@ -4,6 +4,7 @@ import { Box, BoxProps, Text } from '@as-ui/react';
 export default {
   title: 'Surfaces/Box',
   component: Box,
+  tags: ['autodocs'],
   args: {
     children: (
       <Text
