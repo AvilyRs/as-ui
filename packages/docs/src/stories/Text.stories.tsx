@@ -8,7 +8,7 @@ export default {
 
 export const Primary: StoryObj<TextProps> = {
   args: {
-    children: 'Text Component',
+    children: 'Custom Text',
     as: 'strong',
     size: 'md',
     textColor: 'gray900'

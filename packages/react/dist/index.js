@@ -38,6 +38,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var src_exports = {};
 __export(src_exports, {
   Box: () => Box,
+  Heading: () => Heading,
   Text: () => Text
 });
 module.exports = __toCommonJS(src_exports);
@@ -195,8 +196,48 @@ var Text = styled("p", {
     size: "md"
   }
 });
+
+// src/components/Heading.ts
+var Heading = styled("h2", {
+  fontFamily: "$default",
+  lineHeight: "$shorter",
+  margin: 0,
+  variants: {
+    textColor: {
+      white: { color: "$white" },
+      black: { color: "$black" },
+      gray100: { color: "$gray100" },
+      gray200: { color: "$gray200" },
+      gray400: { color: "$gray400" },
+      gray500: { color: "$gray500" },
+      gray600: { color: "$gray600" },
+      gray700: { color: "$gray700" },
+      gray800: { color: "$gray800" },
+      gray900: { color: "$gray900" },
+      ignite300: { color: "$ignite300" },
+      ignite500: { color: "$ignite500" },
+      ignite700: { color: "$ignite700" },
+      ignite900: { color: "$ignite900" }
+    },
+    size: {
+      sm: { fontSize: "$xl" },
+      md: { fontSize: "$2xl" },
+      lg: { fontSize: "$4xl" },
+      "2xl": { fontSize: "$5xl" },
+      "3xl": { fontSize: "$6xl" },
+      "4xl": { fontSize: "$7xl" },
+      "5xl": { fontSize: "$8xl" },
+      "6xl": { fontSize: "$9xl" }
+    }
+  },
+  defaultVariants: {
+    textColor: "gray900",
+    size: "md"
+  }
+});
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Box,
+  Heading,
   Text
 });
