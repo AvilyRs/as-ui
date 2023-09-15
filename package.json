@@ -9,6 +9,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "@storybook/addon-a11y": "^7.4.2",
     "polished": "^4.2.2"
   },
   "devDependencies": {

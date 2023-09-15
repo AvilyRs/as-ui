@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, Checkbox, CheckboxProps } from '@as-ui/react';
+import { Box, Checkbox, CheckboxProps, Text } from '@as-ui/react';
 
 export default {
   title: 'Form/Checkbox',
@@ -8,8 +8,8 @@ export default {
   decorators: [
     (story) => {
       return (
-        <Box>
-          {story()}
+        <Box css={{ display: 'flex', gap: '1rem' }}>
+          {story()} <Text textColor='gray100'>Accept terms</Text>
         </Box>
       );
     }

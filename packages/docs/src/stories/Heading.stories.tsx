@@ -7,8 +7,16 @@ export default {
   tags: ['autodocs'],
   args: {
     children: 'Custom Title',
-    size: 'sm',
+    size: 'md',
     textColor: 'gray100'
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio'
+      }
+    }
   },
   decorators: [
     (Story) => {

@@ -14,6 +14,13 @@ export default {
         Box Component
       </Text>
     )
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null
+      }
+    }
   }
 } as Meta<BoxProps>;
 

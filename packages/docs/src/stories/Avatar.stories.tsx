@@ -7,6 +7,13 @@ export default {
   tags: ['autodocs'],
   args: {
     src: 'https://github.com/avilyrs.png'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
   }
 } as Meta<AvatarProps>;
 
