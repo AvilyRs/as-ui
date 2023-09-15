@@ -42,7 +42,7 @@ export const Text = styled('p', {
   },
 
   defaultVariants: {
-    textColor: 'gray900',
+    textColor: '$gray900',
     size: 'md'
   }
 });
