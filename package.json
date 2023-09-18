@@ -3,16 +3,12 @@
   "private": true,
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build --filter=packages/docs && changeset publish"
+    "build": "turbo run build"
   },
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
-    "@changesets/cli": "^2.26.2",
     "@storybook/addon-a11y": "^7.4.2",
     "polished": "^4.2.2"
   },
