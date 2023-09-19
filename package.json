@@ -1,6 +1,6 @@
 {
   "name": "as-ui",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build"
