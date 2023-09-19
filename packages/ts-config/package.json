@@ -1,5 +1,6 @@
 {
   "name": "@as-ui/ts-config",
+  "version": "2.0.0",
   "license": "MIT",
   "private": false
 }
