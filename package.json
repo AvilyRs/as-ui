@@ -6,7 +6,7 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "generate-version": "changeset version",
-    "publish-packages": "turbo run build --filter=@as-ui/docs && changeset publish"
+    "publish-packages": "turbo run build --filter=!docs && changeset publish"
   },
   "workspaces": [
     "packages/*"

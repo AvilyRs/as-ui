@@ -1,6 +1,8 @@
 declare const colors: {
     readonly white: "#FFF";
     readonly black: "#000";
+    readonly brown: "#543544";
+    readonly red: "red";
     readonly gray100: "#E1E1E6";
     readonly gray200: "#A9A9B2";
     readonly gray400: "#7C7C8A";

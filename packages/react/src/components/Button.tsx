@@ -28,6 +28,10 @@ export const Button = styled('button', {
     opacity: 0.8
   },
 
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100'
+  },
+
   transition: 'color 0.2s, background-color 0.2s',
 
   variants: {
