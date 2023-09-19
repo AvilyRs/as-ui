@@ -18,10 +18,10 @@ export const Text = styled('p', {
       gray700: { color: '$gray700' },
       gray800: { color: '$gray800' },
       gray900: { color: '$gray900' },
-      ignite300: { color: '$ignite300' },
-      ignite500: { color: '$ignite500' },
-      ignite700: { color: '$ignite700' },
-      ignite900: { color: '$ignite900' },
+      as300: { color: '$as300' },
+      as500: { color: '$as500' },
+      as700: { color: '$as700' },
+      as900: { color: '$as900' },
     },
     
     size: {

@@ -1,8 +1,6 @@
 declare const colors: {
     readonly white: "#FFF";
     readonly black: "#000";
-    readonly brown: "#543544";
-    readonly red: "red";
     readonly gray100: "#E1E1E6";
     readonly gray200: "#A9A9B2";
     readonly gray400: "#7C7C8A";
@@ -11,10 +9,10 @@ declare const colors: {
     readonly gray700: "#29292E";
     readonly gray800: "#202024";
     readonly gray900: "#121214";
-    readonly ignite300: "#00B37E";
-    readonly ignite500: "#00875F";
-    readonly ignite700: "#015F43";
-    readonly ignite900: "#00291D";
+    readonly as300: "#4895ef";
+    readonly as500: "#4361ee";
+    readonly as700: "#3f37c9";
+    readonly as900: "#3a0ca3";
 };
 
 declare const fontSizes: {

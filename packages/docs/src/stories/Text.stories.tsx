@@ -9,11 +9,11 @@ export default {
     children: 'Custom Text',
     as: 'strong',
     size: 'md',
-    textColor: 'gray100'
+    textColor: 'as500'
   },
   argTypes: {
     textColor: {
-      options: ['white', 'black', 'gray100', 'gray200', 'gray400', 'gray500', 'gray600', 'gray700', 'gray800', 'gray900', 'ignite300', 'ignite500', 'ignite700', 'ignite900'],
+      options: ['white', 'black', 'gray100', 'gray200', 'gray400', 'gray500', 'gray600', 'gray700', 'gray800', 'gray900', 'as300', 'as500', 'as700', 'as900'],
       control: {
         type: 'inline-radio'
       }

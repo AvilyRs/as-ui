@@ -37,8 +37,6 @@ import { createStitches, defaultThemeMap } from "@stitches/react";
 var colors = {
   white: "#FFF",
   black: "#000",
-  brown: "#543544",
-  red: "red",
   gray100: "#E1E1E6",
   gray200: "#A9A9B2",
   gray400: "#7C7C8A",
@@ -47,10 +45,10 @@ var colors = {
   gray700: "#29292E",
   gray800: "#202024",
   gray900: "#121214",
-  ignite300: "#00B37E",
-  ignite500: "#00875F",
-  ignite700: "#015F43",
-  ignite900: "#00291D"
+  as300: "#4895ef",
+  as500: "#4361ee",
+  as700: "#3f37c9",
+  as900: "#3a0ca3"
 };
 var fontSizes = {
   xxs: "0.625rem",
@@ -160,10 +158,10 @@ var Text = styled("p", {
       gray700: { color: "$gray700" },
       gray800: { color: "$gray800" },
       gray900: { color: "$gray900" },
-      ignite300: { color: "$ignite300" },
-      ignite500: { color: "$ignite500" },
-      ignite700: { color: "$ignite700" },
-      ignite900: { color: "$ignite900" }
+      as300: { color: "$as300" },
+      as500: { color: "$as500" },
+      as700: { color: "$as700" },
+      as900: { color: "$as900" }
     },
     size: {
       xxs: { fontSize: "$xxs" },
@@ -205,10 +203,10 @@ var Heading = styled("h2", {
       gray700: { color: "$gray700" },
       gray800: { color: "$gray800" },
       gray900: { color: "$gray900" },
-      ignite300: { color: "$ignite300" },
-      ignite500: { color: "$ignite500" },
-      ignite700: { color: "$ignite700" },
-      ignite900: { color: "$ignite900" }
+      as300: { color: "$as300" },
+      as500: { color: "$as500" },
+      as700: { color: "$as700" },
+      as900: { color: "$as900" }
     },
     size: {
       sm: { fontSize: "$xl" },
@@ -300,23 +298,23 @@ var Button = styled("button", {
     variant: {
       primary: {
         color: "$white",
-        background: "$ignite500",
+        background: "$as500",
         "&:not(:disabled):hover": {
-          background: "$ignite300"
+          background: "$as300"
         }
       },
       secondary: {
-        color: "$ignite300",
-        border: "2px solid $ignite500",
+        color: "$as300",
+        border: "2px solid $as500",
         "&:not(:disabled):hover": {
           color: "$white",
-          background: "$ignite500"
+          background: "$as500"
         }
       },
       tertiary: {
         color: "$gray100",
         "&:not(:disabled):hover": {
-          color: "$ignite500"
+          color: "$as500"
         }
       }
     },
@@ -360,7 +358,7 @@ var TextInputContainer = styled("div", {
     }
   },
   "&:has(input:focus)": {
-    borderColor: "$ignite300"
+    borderColor: "$as300"
   },
   "&:has(input:disabled)": {
     opacity: 0.5,
@@ -423,7 +421,7 @@ var TextArea = styled("textarea", {
   minHeight: 80,
   "&:focus": {
     outline: 0,
-    borderColor: "$ignite300"
+    borderColor: "$as300"
   },
   "&:disabled": {
     opacity: 0.5,

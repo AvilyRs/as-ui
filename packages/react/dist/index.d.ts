@@ -14,8 +14,6 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -24,10 +22,10 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -219,14 +217,12 @@ interface BoxProps extends ComponentProps<typeof Box> {
 }
 
 declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", {
-    textColor?: "white" | "black" | "gray100" | "gray200" | "gray400" | "gray500" | "gray600" | "gray700" | "gray800" | "gray900" | "ignite300" | "ignite500" | "ignite700" | "ignite900" | undefined;
+    textColor?: "white" | "black" | "gray100" | "gray200" | "gray400" | "gray500" | "gray600" | "gray700" | "gray800" | "gray900" | "as300" | "as500" | "as700" | "as900" | undefined;
     size?: "xxs" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "4xl" | "5xl" | "6xl" | "7xl" | "8xl" | "9xl" | undefined;
 }, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -235,10 +231,10 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -430,14 +426,12 @@ interface TextProps extends ComponentProps<typeof Text> {
 }
 
 declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h2", {
-    textColor?: "white" | "black" | "gray100" | "gray200" | "gray400" | "gray500" | "gray600" | "gray700" | "gray800" | "gray900" | "ignite300" | "ignite500" | "ignite700" | "ignite900" | undefined;
+    textColor?: "white" | "black" | "gray100" | "gray200" | "gray400" | "gray500" | "gray600" | "gray700" | "gray800" | "gray900" | "as300" | "as500" | "as700" | "as900" | undefined;
     size?: "sm" | "md" | "lg" | "2xl" | "4xl" | "5xl" | "6xl" | "3xl" | undefined;
 }, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -446,10 +440,10 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -644,8 +638,6 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -654,10 +646,10 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -859,8 +851,6 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -869,10 +859,10 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1067,8 +1057,6 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -1077,10 +1065,10 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1277,8 +1265,6 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -1287,10 +1273,10 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1483,8 +1469,6 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -1493,10 +1477,10 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1705,8 +1689,6 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -1715,10 +1697,10 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1919,8 +1901,6 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -1929,10 +1909,10 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -2125,8 +2105,6 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -2135,10 +2113,10 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -2346,8 +2324,6 @@ declare const globalCss: <Styles extends {
         colors: {
             readonly white: "#FFF";
             readonly black: "#000";
-            readonly brown: "#543544";
-            readonly red: "red";
             readonly gray100: "#E1E1E6";
             readonly gray200: "#A9A9B2";
             readonly gray400: "#7C7C8A";
@@ -2356,10 +2332,10 @@ declare const globalCss: <Styles extends {
             readonly gray700: "#29292E";
             readonly gray800: "#202024";
             readonly gray900: "#121214";
-            readonly ignite300: "#00B37E";
-            readonly ignite500: "#00875F";
-            readonly ignite700: "#015F43";
-            readonly ignite900: "#00291D";
+            readonly as300: "#4895ef";
+            readonly as500: "#4361ee";
+            readonly as700: "#3f37c9";
+            readonly as900: "#3a0ca3";
         };
         fontSizes: {
             readonly xxs: "0.625rem";
@@ -2550,8 +2526,6 @@ declare const globalCss: <Styles extends {
     colors: {
         readonly white: "#FFF";
         readonly black: "#000";
-        readonly brown: "#543544";
-        readonly red: "red";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -2560,10 +2534,10 @@ declare const globalCss: <Styles extends {
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly as300: "#4895ef";
+        readonly as500: "#4361ee";
+        readonly as700: "#3f37c9";
+        readonly as900: "#3a0ca3";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -2755,8 +2729,6 @@ declare const keyframes: (style: {
         colors: {
             readonly white: "#FFF";
             readonly black: "#000";
-            readonly brown: "#543544";
-            readonly red: "red";
             readonly gray100: "#E1E1E6";
             readonly gray200: "#A9A9B2";
             readonly gray400: "#7C7C8A";
@@ -2765,10 +2737,10 @@ declare const keyframes: (style: {
             readonly gray700: "#29292E";
             readonly gray800: "#202024";
             readonly gray900: "#121214";
-            readonly ignite300: "#00B37E";
-            readonly ignite500: "#00875F";
-            readonly ignite700: "#015F43";
-            readonly ignite900: "#00291D";
+            readonly as300: "#4895ef";
+            readonly as500: "#4361ee";
+            readonly as700: "#3f37c9";
+            readonly as900: "#3a0ca3";
         };
         fontSizes: {
             readonly xxs: "0.625rem";
@@ -2967,8 +2939,6 @@ declare const theme: string & {
     colors: {
         readonly white: _stitches_react_types_theme.Token<"white", string, "colors", "">;
         readonly black: _stitches_react_types_theme.Token<"black", string, "colors", "">;
-        readonly brown: _stitches_react_types_theme.Token<"brown", string, "colors", "">;
-        readonly red: _stitches_react_types_theme.Token<"red", string, "colors", "">;
         readonly gray100: _stitches_react_types_theme.Token<"gray100", string, "colors", "">;
         readonly gray200: _stitches_react_types_theme.Token<"gray200", string, "colors", "">;
         readonly gray400: _stitches_react_types_theme.Token<"gray400", string, "colors", "">;
@@ -2977,10 +2947,10 @@ declare const theme: string & {
         readonly gray700: _stitches_react_types_theme.Token<"gray700", string, "colors", "">;
         readonly gray800: _stitches_react_types_theme.Token<"gray800", string, "colors", "">;
         readonly gray900: _stitches_react_types_theme.Token<"gray900", string, "colors", "">;
-        readonly ignite300: _stitches_react_types_theme.Token<"ignite300", string, "colors", "">;
-        readonly ignite500: _stitches_react_types_theme.Token<"ignite500", string, "colors", "">;
-        readonly ignite700: _stitches_react_types_theme.Token<"ignite700", string, "colors", "">;
-        readonly ignite900: _stitches_react_types_theme.Token<"ignite900", string, "colors", "">;
+        readonly as300: _stitches_react_types_theme.Token<"as300", string, "colors", "">;
+        readonly as500: _stitches_react_types_theme.Token<"as500", string, "colors", "">;
+        readonly as700: _stitches_react_types_theme.Token<"as700", string, "colors", "">;
+        readonly as900: _stitches_react_types_theme.Token<"as900", string, "colors", "">;
     };
     fontSizes: {
         readonly xxs: _stitches_react_types_theme.Token<"xxs", string, "fontSizes", "">;
@@ -3042,8 +3012,6 @@ declare const createTheme: <Argument0 extends string | ({
     colors?: {
         readonly white?: string | number | boolean | undefined;
         readonly black?: string | number | boolean | undefined;
-        readonly brown?: string | number | boolean | undefined;
-        readonly red?: string | number | boolean | undefined;
         readonly gray100?: string | number | boolean | undefined;
         readonly gray200?: string | number | boolean | undefined;
         readonly gray400?: string | number | boolean | undefined;
@@ -3052,10 +3020,10 @@ declare const createTheme: <Argument0 extends string | ({
         readonly gray700?: string | number | boolean | undefined;
         readonly gray800?: string | number | boolean | undefined;
         readonly gray900?: string | number | boolean | undefined;
-        readonly ignite300?: string | number | boolean | undefined;
-        readonly ignite500?: string | number | boolean | undefined;
-        readonly ignite700?: string | number | boolean | undefined;
-        readonly ignite900?: string | number | boolean | undefined;
+        readonly as300?: string | number | boolean | undefined;
+        readonly as500?: string | number | boolean | undefined;
+        readonly as700?: string | number | boolean | undefined;
+        readonly as900?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         readonly xxs?: string | number | boolean | undefined;
@@ -3121,8 +3089,6 @@ declare const createTheme: <Argument0 extends string | ({
     colors?: {
         readonly white?: string | number | boolean | undefined;
         readonly black?: string | number | boolean | undefined;
-        readonly brown?: string | number | boolean | undefined;
-        readonly red?: string | number | boolean | undefined;
         readonly gray100?: string | number | boolean | undefined;
         readonly gray200?: string | number | boolean | undefined;
         readonly gray400?: string | number | boolean | undefined;
@@ -3131,10 +3097,10 @@ declare const createTheme: <Argument0 extends string | ({
         readonly gray700?: string | number | boolean | undefined;
         readonly gray800?: string | number | boolean | undefined;
         readonly gray900?: string | number | boolean | undefined;
-        readonly ignite300?: string | number | boolean | undefined;
-        readonly ignite500?: string | number | boolean | undefined;
-        readonly ignite700?: string | number | boolean | undefined;
-        readonly ignite900?: string | number | boolean | undefined;
+        readonly as300?: string | number | boolean | undefined;
+        readonly as500?: string | number | boolean | undefined;
+        readonly as700?: string | number | boolean | undefined;
+        readonly as900?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         readonly xxs?: string | number | boolean | undefined;
@@ -3207,8 +3173,6 @@ declare const config: {
         colors: {
             readonly white: "#FFF";
             readonly black: "#000";
-            readonly brown: "#543544";
-            readonly red: "red";
             readonly gray100: "#E1E1E6";
             readonly gray200: "#A9A9B2";
             readonly gray400: "#7C7C8A";
@@ -3217,10 +3181,10 @@ declare const config: {
             readonly gray700: "#29292E";
             readonly gray800: "#202024";
             readonly gray900: "#121214";
-            readonly ignite300: "#00B37E";
-            readonly ignite500: "#00875F";
-            readonly ignite700: "#015F43";
-            readonly ignite900: "#00291D";
+            readonly as300: "#4895ef";
+            readonly as500: "#4361ee";
+            readonly as700: "#3f37c9";
+            readonly as900: "#3a0ca3";
         };
         fontSizes: {
             readonly xxs: "0.625rem";
